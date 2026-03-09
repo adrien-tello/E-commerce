@@ -1,0 +1,314 @@
+[00:00:05.335] Server  LOG      ✓ Ready in 3.2s
+[00:00:08.627] Server  LOG      ○ Compiling / ...
+[00:00:13.895] Server  ERROR    ⨯ ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+
+
+[00:00:17.939] Browser ERROR   uncaughtError: Error: ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+
+
+[00:00:18.348] Browser ERROR   ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+[00:00:18.348] Browser ERROR   ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+[00:00:23.605] Server  ERROR    ⨯ ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+
+
+[00:00:24.203] Server  ERROR    ⨯ ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+
+
+[00:00:24.385] Browser ERROR   ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+[00:00:24.385] Browser ERROR   ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+[00:00:24.385] Browser ERROR   ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+[00:00:25.235] Browser ERROR   uncaughtError: Error: ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+
+
+[00:00:25.611] Browser ERROR   ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+[00:00:25.611] Browser ERROR   ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+[00:00:26.371] Browser ERROR   ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+[00:00:27.161] Browser ERROR   uncaughtError: Error: ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+
+
+[00:00:27.335] Browser ERROR   ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+[00:00:27.493] Browser ERROR   ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+[00:00:27.493] Browser ERROR   ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+[00:00:27.726] Browser ERROR   ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+[00:00:27.785] Browser ERROR   ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+[00:00:27.785] Browser ERROR   ./app/page.tsx:129:17
+Parsing ecmascript source code failed
+  127 |           className="w-full h-16 rounded-[2rem] text-xl font-bold shadow-2xl shadow-primary/30 group"
+  128 |         >
+> 129 |           Start Your Journey
+      |                 ^^^^
+  130 |         </Button>
+  131 |         <p className="text-sm text-muted-foreground">Join 50,000+ happy travelers worldwide.</p>
+  132 |       </div>
+
+Expected ';', '}' or <eof>
+[00:02:01.117] Server  LOG      ✓ Compiled in 392ms
+[00:02:02.395] Server  WARN    Image with src "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:02.403] Server  WARN    Image with src "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:02.411] Server  WARN    Image with src "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:02.421] Server  WARN    Image with src "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:02.430] Server  WARN    Image with src "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:02.442] Server  WARN    Image with src "https://images.unsplash.com/photo-1565636192335-14462d25d4d0?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:02.451] Server  WARN    Image with src "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:02.457] Server  WARN    Image with src "https://images.unsplash.com/photo-1507842217343-583f7270f69d?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:04.872] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:04.875] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:05.384] Browser WARN    Image with src "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:05.384] Browser WARN    Image with src "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:05.384] Browser WARN    Image with src "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:05.384] Browser WARN    Image with src "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:05.384] Browser WARN    Image with src "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:05.384] Browser WARN    Image with src "https://images.unsplash.com/photo-1565636192335-14462d25d4d0?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:05.384] Browser WARN    Image with src "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:05.384] Browser WARN    Image with src "https://images.unsplash.com/photo-1507842217343-583f7270f69d?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:05.397] Browser WARN    Image with src "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:05.397] Browser WARN    Image with src "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:05.397] Browser WARN    Image with src "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:05.397] Browser WARN    Image with src "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:05.397] Browser WARN    Image with src "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:05.397] Browser WARN    Image with src "https://images.unsplash.com/photo-1565636192335-14462d25d4d0?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:05.398] Browser WARN    Image with src "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:05.398] Browser WARN    Image with src "https://images.unsplash.com/photo-1507842217343-583f7270f69d?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:02:08.362] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:08.363] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:08.363] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772891356631} /_vercel/insights/view
+[00:02:08.364] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:08.364] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:08.364] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772891356629} /_vercel/insights/view
+[00:02:31.154] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"http://localhost:3000/products","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772891379388} /_vercel/insights/view
+[00:03:04.229] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/product/1 color: rgb(120, 120, 120) color: inherit {"dp":"/product/[id]","o":"http://localhost:3000/product/1","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772891412506} /_vercel/insights/view
+[00:03:32.891] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/product/2 color: rgb(120, 120, 120) color: inherit {"dp":"/product/[id]","o":"http://localhost:3000/product/2","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772891441171} /_vercel/insights/view
+[00:03:53.703] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:53.959] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:53.959] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/account/orders","route":"/account/orders"}
+[00:03:53.959] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/account/orders color: rgb(120, 120, 120) color: inherit {"dp":"/account/orders","o":"http://localhost:3000/account/orders","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772891462227} /_vercel/insights/view
+[00:04:16.722] Browser WARN    Image with src "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:16.723] Browser WARN    Image with src "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:16.723] Browser WARN    Image with src "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:04:16.723] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/category/electronics?subcategory=phones color: rgb(120, 120, 120) color: inherit {"dp":"/category/[slug]","o":"http://localhost:3000/category/electronics?subcategory=phones","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772891484990} /_vercel/insights/view
+[00:05:18.609] Browser WARN    Image with src "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:18.609] Browser WARN    Image with src "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:18.609] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/category/fashion?subcategory=shoes color: rgb(120, 120, 120) color: inherit {"dp":"/category/[slug]","o":"http://localhost:3000/category/fashion?subcategory=shoes","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772891546887} /_vercel/insights/view
+[00:05:32.843] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:33.176] Browser WARN    Image with src "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:33.176] Browser WARN    Image with src "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:05:33.176] Browser WARN    Image with src "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:33.176] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:33.176] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/category/fashion","route":"/category/[slug]"}
+[00:05:33.176] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/category/fashion?subcategory=shoes color: rgb(120, 120, 120) color: inherit {"dp":"/category/[slug]","o":"http://localhost:3000/category/fashion?subcategory=shoes","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772891561458} /_vercel/insights/view
+[00:05:50.314] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:50.668] Browser WARN    Image with src "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:50.668] Browser WARN    Image with src "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:50.668] Browser WARN    Image with src "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:50.668] Browser WARN    Image with src "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:50.668] Browser WARN    Image with src "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:50.668] Browser WARN    Image with src "https://images.unsplash.com/photo-1565636192335-14462d25d4d0?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:50.668] Browser WARN    Image with src "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:50.668] Browser WARN    Image with src "https://images.unsplash.com/photo-1507842217343-583f7270f69d?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:05:51.904] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:51.904] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:05:51.904] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772891580182} /_vercel/insights/view
+[00:06:33.150] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:33.844] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:33.844] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/account/orders","route":"/account/orders"}
+[00:06:33.844] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/account/orders color: rgb(120, 120, 120) color: inherit {"dp":"/account/orders","o":"http://localhost:3000/account/orders","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772891621642} /_vercel/insights/view
+[00:06:39.423] Browser WARN    Image with src "https://images.unsplash.com/photo-1507842217343-583f7270f69d?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:06:39.423] Browser WARN    Image with src "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:06:39.423] Browser WARN    Image with src "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:06:39.423] Browser WARN    Image with src "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:06:39.424] Browser WARN    Image with src "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:06:39.424] Browser WARN    Image with src "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:06:39.424] Browser WARN    Image with src "https://images.unsplash.com/photo-1565636192335-14462d25d4d0?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:06:39.424] Browser WARN    Image with src "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead.
+[00:06:39.424] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/products color: rgb(120, 120, 120) color: inherit {"dp":"/products","o":"http://localhost:3000/products","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1772891627655} /_vercel/insights/view

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro_Medicine | Natural Healing Through Traditional Medicine</title>
+    <meta name="description" content="Verified traditional medicine healthcare platform for herbal treatments and natural remedies.">
+    <!-- Google Fonts: Poppins for medical typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Medical Disclaimer Banner -->
+    <div class="disclaimer-banner" role="alert">
+        <div class="container">
+            <p><strong>Medical Disclaimer:</strong> This platform is for informational purposes only. Always consult with a qualified healthcare provider before starting any herbal treatment.</p>
+        </div>
+    </div>
+
+    <!-- Sticky Navigation -->
+    <header class="main-header">
+        <nav class="container nav-wrapper">
+            <a href="#" class="logo">Agro<span>Medicine</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#directory">Diseases</a></li>
+                <li><a href="#dashboard">Doctor Dashboard</a></li>
+            </ul>
+            <div class="role-switcher">
+                <button id="user-role-btn" class="role-btn active">User View</button>
+                <button id="doctor-role-btn" class="role-btn">Doctor View</button>
+            </div>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <h1>Natural Healing Through <br><span class="highlight">Traditional Medicine</span></h1>
+                <p class="tagline">Explore verified herbal treatments for common ailments, reviewed by certified traditional doctors.</p>
+                
+                <div class="search-wrapper">
+                    <div class="search-bar">
+                        <input type="text" id="disease-search" placeholder="Search by disease or symptom (e.g., Malaria, Cough)...">
+                        <button id="search-btn">Search</button>
+                    </div>
+                </div>
+
+                <div class="trust-indicators">
+                    <div class="indicator">
+                        <div class="icon">✓</div>
+                        <span>Verified Doctors</span>
+                    </div>
+                    <div class="indicator">
+                        <div class="icon">🌿</div>
+                        <span>Natural Remedies</span>
+                    </div>
+                    <div class="indicator">
+                        <div class="icon">📋</div>
+                        <span>Medically Reviewed</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Directory Section -->
+        <section id="directory" class="directory">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Diseases Directory</h2>
+                    <div class="filters">
+                        <select id="body-system-filter">
+                            <option value="all">All Body Systems</option>
+                            <option value="respiratory">Respiratory</option>
+                            <option value="digestive">Digestive</option>
+                            <option value="nervous">Nervous</option>
+                            <option value="immune">Immune</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="diseases-grid" class="diseases-grid">
+                    <!-- Dynamic Disease Cards -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard Section (Hidden by default, shown for Doctor role) -->
+        <section id="dashboard" class="dashboard hidden">
+            <div class="container">
+                <h2>Doctor Dashboard</h2>
+                <div class="dashboard-wrapper">
+                    <div class="form-card">
+                        <h3>Upload New Treatment</h3>
+                        <form id="treatment-form">
+                            <div class="form-group">
+                                <label for="form-disease-name">Disease Name</label>
+                                <input type="text" id="form-disease-name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-body-system">Body System</label>
+                                <select id="form-body-system" required>
+                                    <option value="respiratory">Respiratory</option>
+                                    <option value="digestive">Digestive</option>
+                                    <option value="nervous">Nervous</option>
+                                    <option value="immune">Immune</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-ingredients">Ingredients (Comma separated)</label>
+                                <textarea id="form-ingredients" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-preparation">Preparation Steps</label>
+                                <textarea id="form-preparation" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-dosage">Dosage</label>
+                                <input type="text" id="form-dosage" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-warnings">Warnings & Contraindications</label>
+                                <textarea id="form-warnings" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Upload Treatment</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Treatment Detail Modal -->
+    <div id="treatment-modal" class="modal hidden">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <div id="modal-body">
+                <!-- Dynamic Content -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-logo">Agro<span>Medicine</span></div>
+            <p>&copy; 2025 Agro_Medicine Traditional Healthcare Platform.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
