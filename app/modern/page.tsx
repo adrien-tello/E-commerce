@@ -10,7 +10,7 @@ import { Testimonials } from '@/components/testimonials';
 import { NewsletterSubscription } from '@/components/newsletter-subscription';
 import { ModernFooter } from '@/components/modern-footer';
 
-export default function HomePage() {
+export default function ModernLandingPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}

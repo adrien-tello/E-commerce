@@ -334,9 +334,6 @@ export default function CheckoutPage() {
               tax={tax}
               checkoutLabel={step === 'review' ? 'Place Order' : 'Continue to Next Step'}
             />
-                <span className="text-orange-600">${total.toFixed(2)}</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>

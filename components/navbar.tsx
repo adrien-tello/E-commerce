@@ -58,6 +58,76 @@ export function Navbar() {
         </div>
       </div>
 
+      {/* Main header */}
+      <div className="bg-[#131921] text-white px-4 py-3">
+        <div className="max-w-7xl mx-auto flex items-center gap-4">
+          {/* Logo */}
+          <Link href="/" className="flex-shrink-0">
+            <div className="text-2xl font-bold text-white hover:text-orange-400 transition">
+              Amazon
+            </div>
+          </Link>
+
+          {/* Search bar */}
+          <form onSubmit={handleSearch} className="flex-1 max-w-2xl mx-4">
+            <div className="flex">
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="Search products..."
+                className="flex-1 px-4 py-2 text-gray-900 rounded-l-md focus:outline-none focus:ring-2 focus:ring-orange-500"
+              />
+              <button
+                type="submit"
+                className="bg-orange-500 hover:bg-orange-600 px-4 py-2 rounded-r-md transition"
+              >
+                <Search size={20} />
+              </button>
+            </div>
+          </form>
+
+          {/* Right side icons */}
+          <div className="flex items-center gap-4">
+            {/* User account */}
+            <Link href="/account" className="flex flex-col items-center hover:text-orange-400 transition">
+              <User size={24} />
+              <span className="text-xs">{user ? user.name.split(' ')[0] : 'Account'}</span>
+            </Link>
+
+            {/* Wishlist */}
+            <Link href="/wishlist" className="relative flex flex-col items-center hover:text-orange-400 transition">
+              <Heart size={24} />
+              <span className="text-xs">Wishlist</span>
+              {wishlistCount > 0 && (
+                <span className="absolute -top-2 -right-2 bg-orange-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
+                  {wishlistCount}
+                </span>
+              )}
+            </Link>
+
+            {/* Cart */}
+            <Link href="/cart" className="relative flex flex-col items-center hover:text-orange-400 transition">
+              <ShoppingCart size={24} />
+              <span className="text-xs">Cart</span>
+              {cartCount > 0 && (
+                <span className="absolute -top-2 -right-2 bg-orange-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
+                  {cartCount}
+                </span>
+              )}
+            </Link>
+
+            {/* Mobile menu toggle */}
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="md:hidden"
+            >
+              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
+        </div>
+      </div>
+
       {/* Secondary nav with categories */}
       <div className="bg-[#232F3E] text-white px-4 py-3 hidden md:block">
         <div className="max-w-7xl mx-auto flex items-center gap-6">
@@ -72,6 +142,31 @@ export function Navbar() {
           </div>
         </div>
       </div>
+
+      {/* Mobile menu */}
+      {isMobileMenuOpen && (
+        <div className="md:hidden bg-[#232F3E] text-white px-4 py-4">
+          <div className="space-y-4">
+            <Link href="/products" className="block hover:text-orange-400 transition">
+              All Products
+            </Link>
+            {categories.map((category) => (
+              <Link
+                key={category.id}
+                href={`/category/${category.slug}`}
+                className="block hover:text-orange-400 transition"
+              >
+                {category.name}
+              </Link>
+            ))}
+            <div className="border-t border-gray-600 pt-4 space-y-2">
+              <button className="block hover:text-orange-400 transition">Today's Deals</button>
+              <button className="block hover:text-orange-400 transition">Best Sellers</button>
+              <button className="block hover:text-orange-400 transition">New Releases</button>
+            </div>
+          </div>
+        </div>
+      )}
     </nav>
   );
 }

@@ -1,5 +1,6 @@
 'use client';
 
+import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { products } from '@/lib/products-data';
 import { ProductCard } from '@/components/product-card';
@@ -16,7 +17,7 @@ interface FilterOptions {
   discounts: string[];
 }
 
-export default function SearchResultsPage() {
+function SearchResults() {
   const searchParams = useSearchParams();
   const query = searchParams.get('q') || '';
   const [filters, setFilters] = useState<FilterOptions>({
@@ -181,5 +182,13 @@ export default function SearchResultsPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function SearchResultsPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-gray-100 flex items-center justify-center"><div className="text-lg">Loading search results...</div></div>}>
+      <SearchResults />
+    </Suspense>
   );
 }
